@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Watermelon</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="login">Login</string>
+    <string name="appicon">AppIcon</string>
+    <string name="login_background">login_background</string>
+    <string name="sign_up">SIGN UP</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

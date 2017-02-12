@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.watermelon.mn.watermelon.UniversityEmailFragment">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/email_entry_message"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:text="Enter your @syr.edu to register as a member of SU"
+        android:textColor="@color/PrimaryDarkColor" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email_entry_message"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/email_entry_field"
+        android:hint="youremail@syr.edu"
+        android:layout_marginTop="175dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_navigate_next_black_24dp"
+        android:id="@+id/proceed_icon"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/email_entry_field"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+
+
+
